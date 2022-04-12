@@ -2,61 +2,69 @@
     display: flex;
     margin: 10px auto;
     border: 1px solid orange;
-    width: 1100px;
-    height: 200px;
-    padding: 10px;
+    max-width: 1100px;
+    /*height: 200px;*/
+    width: 800px;
 }
 
-.number {
-        border: 1px solid black;
+.number {    
     background-color: orange;
     color: white;
     width: 20px;
     height: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
 }
 
 .icon {
-    border: 1px solid black;
     font-size: 48px;
+    stroke: blue;
 }
 
 .text {
-    border: 1px solid black;
+    margin 50px;
+    border-style: dashed;
 }
 
 .character {
-
-    border: 1px solid black;
     display: flex;
-    color: gray;
+    color: lightgray;
+}
+
+.type-text, .time-text, .look-text,
+.remind-text {
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-size: small;
 }
 
 .type-text {
-        border: 1px solid black;
-
+    width: 100px;
 }
 
 .time-text {
-        border: 1px solid black;
-
+    width: 200px;
 }
 
-.name-text {
-        border: 1px solid black;
-
+.name {
+    font-size: large;
 }
 
 .todo {
-        border: 1px solid black;
     display: flex;
 }
 
 .look-text {
-        border: 1px solid black;
+    color: orange;
 
 }
 
-.remind-text {
-        border: 1px solid black;
-
+.remind-text {       
+    color: grey;
 }
+
